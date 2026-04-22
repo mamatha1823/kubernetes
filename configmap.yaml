@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: configMap
+metadata:
+  name: environment-config
+data:
+  name: mamathakishore
+  company: XYZ
