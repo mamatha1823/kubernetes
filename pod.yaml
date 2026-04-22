@@ -3,5 +3,6 @@ apiVersion: V1
 metadata:
   name: pod
 spec:
-   containers: nginx
-   image: nginx
+   containers:
+    name: nginx
+    image: nginx
