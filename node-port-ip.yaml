@@ -3,7 +3,7 @@ apiVersion: v1
 metadata:
   name: nginx-np
 spec:
-  type: Nodeport
+  type: NodePort
   selector:
     project: expense
     module: backend
