@@ -14,6 +14,6 @@ spec:
           key: name #env name and key name need not to be matched 
      - name: company
        valueFrom:
-        configMapKepRef:
+        configMapKeyRef:
         - name: nginx-config
           key : company
