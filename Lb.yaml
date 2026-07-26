@@ -1,0 +1,16 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: expense-lb
+spec:
+  type: LoadBalancer
+  selectors:
+   project: expense
+   module: backend
+   environment: dev
+  ports:
+   name: nginx-svc-port
+   protocol: TCP
+   port: 80 # service port
+   targetPort: 80 # container port
+    
