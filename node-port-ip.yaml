@@ -1,8 +1,7 @@
 kind: Service
 apiVersion: v1
 metadata:
-  name: nginx
-  type: nodeport
+  name: nginx-np
 spec:
   type: Nodeport
   selector:
