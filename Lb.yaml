@@ -1,7 +1,7 @@
 kind: Service
 apiVersion: v1
 metadata:
-  name: expense-lb
+  name: nginx-lb
 spec:
   type: LoadBalancer
   selectors:
