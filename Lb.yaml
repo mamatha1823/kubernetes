@@ -5,12 +5,12 @@ metadata:
 spec:
   type: LoadBalancer
   selectors:
-   project: expense
-   module: backend
-   environment: dev
+    project: expense
+    module: backend
+    environment: dev
   ports:
-  -  name: nginx-svc-port
-     protocol: TCP
-     port: 80 # service port
-     targetPort: 80 # container port
+  - name: nginx-svc-port
+    protocol: TCP
+    port: 80 # service port
+    targetPort: 80 # container port
     
