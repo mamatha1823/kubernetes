@@ -15,6 +15,7 @@ metadata:
     name: pod
     labels:
       namespace: expense
+      
 spec:
     containers:
     - name: nginx
