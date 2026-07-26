@@ -6,7 +6,7 @@
 #   project: expense
 #   environment: dev
 
-kind: namespace
+kind: Namespace
 apiVersion: v1
 metadata: 
      name: expense
