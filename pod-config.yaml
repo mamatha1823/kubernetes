@@ -10,10 +10,10 @@ spec:
      - name: name
        valueFrom:
         configMapKeyRef:
-        - name: nginx-config
+          name: nginx-config
           key: name #env name and key name need not to be matched 
      - name: company
        valueFrom:
         configMapKeyRef:
-        - name: nginx-config
+          name: nginx-config
           key : company
