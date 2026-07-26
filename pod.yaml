@@ -15,6 +15,9 @@ metadata:
     name: pod
     labels:
       namespace: expense
+      project: expense
+      module: backend
+      environment: dev
       
 spec:
     containers:
