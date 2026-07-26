@@ -1,10 +1,21 @@
+# kind: Pod
+# apiVersion: v1
+# metadata:
+#   name: pod
+#   labels:
+#    namespace: expense
+# spec:
+#    containers:
+#     - name: nginx
+#       image: nginx
+
 kind: Pod
 apiVersion: v1
 metadata:
-  name: pod
-  labels:
-   namespace: expense
+    name: Pod
+    labels:
+      namespace: expense
 spec:
-   containers:
+    containers:
     - name: nginx
       image: nginx

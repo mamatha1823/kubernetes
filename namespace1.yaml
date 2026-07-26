@@ -1,0 +1,9 @@
+kind: namespace
+apiVersion: v1
+metadata:
+   name: expense1
+   labels:
+     project: expense
+     environment: qa
+
+
