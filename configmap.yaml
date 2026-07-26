@@ -3,5 +3,6 @@ kind: ConfigMap
 metadata:
   name: nginx-config
 data:
-  name: mamathakishore
+  name: mamatha
   company: XYZ
+
