@@ -1,0 +1,19 @@
+kind: Pod
+apiVersion: v1
+metadata:
+  name: pod-config
+spec:
+  containers:
+  - name: nginx
+    image: nginx
+    env:
+     name: name
+     valueFrom:
+       configMapKeyRef:
+       - name: nginx-config
+         key: name #env name and key name need not to be matched 
+     name: company
+     valueFrom:
+       configMapKepRef:
+       - name: nginx-config
+         key : company
